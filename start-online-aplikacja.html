@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aplikacja Android | START ONLINE</title>
+  <meta name="description" content="Podstrona pobrania aplikacji Android w pakiecie START ONLINE." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#0a1020;--line:rgba(255,255,255,.15);--panel:rgba(255,255,255,.05);--text:#eaf1ff;--muted:#a6b7d7;--gold:#d4af6e;--accent:#8fd2ff}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Inter,sans-serif;color:var(--text);line-height:1.65;background:radial-gradient(circle at 0 0,#1a2f57,transparent 35%),radial-gradient(circle at 100% 100%,#3a2612,transparent 30%),var(--bg)}
+    .container{width:min(980px,92%);margin:0 auto}
+    header{border-bottom:1px solid rgba(255,255,255,.08);background:rgba(10,16,32,.82)}
+    .top{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding:10px 0}
+    a{color:var(--accent);text-decoration:none}
+    .brand{font-family:"Playfair Display",serif;color:#f5e4c4;font-size:1.15rem}
+    main{padding:clamp(2.2rem,7vw,4rem) 0}
+    .box{border:1px solid var(--line);border-radius:20px;background:linear-gradient(150deg,rgba(255,255,255,.08),rgba(255,255,255,.02));padding:1.2rem}
+    h1{font-family:"Playfair Display",serif;font-size:clamp(1.8rem,5vw,2.8rem);margin-bottom:.7rem}
+    p{color:var(--muted);margin-bottom:.8rem}
+    .btn{display:inline-flex;text-decoration:none;border-radius:999px;padding:.72rem 1rem;font-weight:700}
+    .btn-main{background:linear-gradient(120deg,var(--gold),#f5e4c4);color:#2b1a08}
+    .btn-ghost{border:1px solid var(--line);color:var(--text)}
+    .row{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container top">
+      <a class="brand" href="start-online.html">START ONLINE</a>
+      <a href="start-online.html">← Wróć na stronę główną</a>
+    </div>
+  </header>
+  <main>
+    <div class="container box">
+      <h1>Podstrona pobrania aplikacji Android</h1>
+      <p>To jest gotowa podstrona pod aplikację mobilną klienta. Po podpięciu pliku APK przycisk poniżej może prowadzić bezpośrednio do pobrania.</p>
+      <div class="row">
+        <a class="btn btn-main" href="#">Pobierz aplikację</a>
+        <a class="btn btn-ghost" href="start-online-polityka-prywatnosci.html">Polityka prywatności</a>
+        <a class="btn btn-ghost" href="start-online-regulamin.html">Regulamin oferty</a>
+      </div>
+      <p style="margin-top:1rem">Opcjonalnie aplikację można opublikować w Google Play (wymogi i polityki Google + dodatkowy koszt od 100 €).</p>
+    </div>
+  </main>
+</body>
+</html>
